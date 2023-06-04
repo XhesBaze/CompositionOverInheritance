@@ -11,6 +11,7 @@ public abstract class Employee {
 	{
 		this.setName(name);
 		this.setSalary(salary);
+		this.setAccount(account);
 	}
 
 
