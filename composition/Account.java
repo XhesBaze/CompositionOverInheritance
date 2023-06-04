@@ -3,7 +3,13 @@ package composition;
 public class Account {
 	
 	private int number;
-	private Boolean isActive;
+	private boolean isActive;
+	
+	public Account(int number, boolean isActive)
+	{
+		this.setNumber(number);
+		this.setIsActive(isActive);
+	}
 	public int getNumber() {
 		return number;
 	}
@@ -13,7 +19,7 @@ public class Account {
 	public Boolean getIsActive() {
 		return isActive;
 	}
-	public void setIsActive(Boolean isActive) {
+	public void setIsActive(boolean isActive) {
 		this.isActive = isActive;
 	}
 
