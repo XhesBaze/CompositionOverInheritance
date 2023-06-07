@@ -3,12 +3,12 @@ package inheritance;
 //due to needed changes
 public abstract class NewEmployee {
 	
-	private Boolean isActive;
+	private boolean isActive;
 	private String name;
 	private double salary;
 	private int accountNumber;
 	
-	public NewEmployee(String name, double salary, Boolean isActive, int accountNumber)
+	public NewEmployee(String name, double salary, boolean isActive, int accountNumber)
 	{
 		this.setName(name);
 		this.setSalary(salary);
@@ -51,7 +51,7 @@ public abstract class NewEmployee {
 		this.accountNumber = accountNumber;
 	}	
 
-	public void setIsActive(Boolean isActive) {
+	public void setIsActive(boolean isActive) {
 		this.isActive = isActive;
 	}
 
