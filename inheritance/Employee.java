@@ -33,7 +33,7 @@ public abstract class Employee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-
+//abstract method which every class that extends the employee class, can override as they wish
 	abstract double earnings();
 
 
