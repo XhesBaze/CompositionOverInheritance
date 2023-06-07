@@ -2,7 +2,8 @@ package inheritance;
 
 //due to needed changes
 public abstract class NewEmployee {
-	
+
+	//boolean to see if an account is active or not
 	private boolean isActive;
 	private String name;
 	private double salary;
