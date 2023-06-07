@@ -4,7 +4,7 @@ public class NewFullTimeEmployee extends NewEmployee{
 	
 private double overtimeQuota;
 	
-	public NewFullTimeEmployee(String name, double salary, int accountNumber, double overtimeQuota, Boolean isActive)
+	public NewFullTimeEmployee(String name, double salary, int accountNumber, double overtimeQuota, boolean isActive)
 	{
 		super(name,salary, accountNumber, isActive);
 		this.setOvertimeQuota(overtimeQuota);
